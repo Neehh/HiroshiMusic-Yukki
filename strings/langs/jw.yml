@@ -1,0 +1,9 @@
+name : Javanese
+
+# string jawa
+general_1 : "Mbales pesen pangguna utawa wenehi jeneng pangguna/user_id."
+general_2 : "Kesalahan! Panggunaan Command Salah."
+general_3 : "Sawetara **pengecualian dumadi** nalika ngolah musik sampeyan.\n\nJenis Pengecualian:- {0}"
+general_4 : "Sampeyan admin anonim saka grup chatting iki!\nBali menyang Akun Panganggo Saka Hak Admin."
+general_5 : "Sampeyan kudu dadi admin sing duwe hak ngatur obrolan swara kanggo nindakake tumindak iki."
+general_6 : "Bot ora streaming ing obrolan swara."
