@@ -23,7 +23,7 @@ def start_pannel(_):
                 url=f"https://t.me/{app.username}?start=help",
             ),
             InlineKeyboardButton(
-                text=_["S_B_2"], callback_data="settings_helper"
+                text=_["S_B_2"], url=f"https://t.me/VegetaSupports"
             ),
         ],
     ]
@@ -65,7 +65,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text=_["S_B_8"], callback_data="settings_back_helper"
             ), 
             InlineKeyboardButton(
-                text=_["S_B_9"], callback_data="settings_back_helper"
+                text=_["S_B_9"], url=f"https://t.me/VegetaSupports"
             ), 
         ]
     ]
