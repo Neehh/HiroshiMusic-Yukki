@@ -61,6 +61,12 @@ def lanuages_keyboard(_):
         InlineKeyboardButton(
             text="🇮🇩 Indonesian", 
             callback_data=f"languages:id",
+        ),
+    )
+    keyboard.row(
+        InlineKeyboardButton(
+           text="🇨🇴 Javenase", 
+           callback_data=f"languages:jw",
         ), 
     )
     keyboard.row(
