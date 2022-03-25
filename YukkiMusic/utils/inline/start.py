@@ -148,5 +148,5 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(
                 text=_["[ST_B_28"], url=f"https://t.me/rencrpx"
             ),
-
-    return buttons
+        ]
+return buttons
