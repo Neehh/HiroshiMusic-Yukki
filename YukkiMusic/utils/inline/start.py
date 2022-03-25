@@ -63,7 +63,10 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         [
             InlineKeyboardButton(
                 text=_["S_B_8"], callback_data="settings_back_helper"
-            )
+            ), 
+            InlineKeyboardButton(
+                text=_["S_B_9"], callback_data="settings_back_helper"
+            ), 
         ]
     ]
     if SUPPORT_CHANNEL and SUPPORT_GROUP:
@@ -75,6 +78,9 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 InlineKeyboardButton(
                     text=_["S_B_3"], url=f"{SUPPORT_GROUP}"
                 ),
+                InlineKeyboardButton(
+                    text=_["S_B_9"], url=f"https://t.me/VegetaSupports"
+               ), 
             ]
         )
     else:
@@ -91,7 +97,10 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 [
                     InlineKeyboardButton(
                         text=_["S_B_3"], url=f"{SUPPORT_GROUP}"
-                    )
+                    ), 
+                    InlineKeyboardButton(
+                        text=_["S_B_9"], url=f"https://t.me/VegetaSupports"
+                    ), 
                 ]
             )
     buttons.append(
