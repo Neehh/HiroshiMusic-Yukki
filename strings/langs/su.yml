@@ -158,7 +158,7 @@ playlist_6 : "Hubungi kuring di PM pikeun ngahapus Playlist."
 playlist_7 : "Lagu di jero Daptar puter: {0}\n\nPencét Tombol pikeun mupus lagu husus dina daptar puter anjeun.\n\nPikeun mupus sakabéh daptar puter: Pencét tombol Del Whole Playlist."
 playlist_8 : "Geus Sadia\n\nIeu lagu aya dina playlist anjeun."
 playlist_9 : "Hampura! Anjeun ngan bisa boga {0} musik dina daptar puter."
-playlist_10 : "Daptar Puter ditambahkeun\n\n{0}\ditambahkeun kana daptar puter anjeun."
+playlist_10 : "Daptar Puter ditambahkeun\n\n{0}\nDitambahkeun kana daptar puter anjeun."
 playlist_11 : "Berhasil ngahapus lagu anjeun."
 playlist_12 : "Gagal mupus lagu anjeun."
 playlist_13 : "Hapus sakabéh playlist anjeun tina server."
@@ -220,7 +220,7 @@ stream_4 : " **Mimitian Streaming** \n\n**🔗 Judul:** [{0}]({1})\n⌛**Durasi*
 # Tombol Inline
 
 #Konci Umum
-CLOSE_BUTTON : "🗑 Tutupan "
+CLOSE_BUTTON : "🗑 Tutupan"
 CLOSEMENU_BUTTON : "🗑 Tutupan Menus"
 BACK_BUTTON : "《 Balikan"
 UNBAN_BUTTON : "🗑 Unban Assistontis"
