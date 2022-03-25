@@ -71,8 +71,7 @@ def lanuages_keyboard(_):
         InlineKeyboardButton(
            text="🇬🇱 Sundanese",
            callback_data=f"languages:su", 
-        ), 
-          
+        ),       
     )
     keyboard.row(
         InlineKeyboardButton(
