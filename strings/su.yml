@@ -1,0 +1,9 @@
+name : Sundanese
+
+# string sunda
+general_1 : "Bales pesen pamaké atawa nyadiakeun ngaran pamaké/user_id."
+general_2 : "Kasalahan! Pamakéan Komando Salah."
+general_3 : "Sababaraha **pangecualian lumangsung** nalika ngolah musik anjeun.\n\nJenis Pangecualian:- {0}"
+general_4 : "Anjeun admin anonim tina grup obrolan ieu!\nBalik deui ka Akun Pamaké Ti Hak Admin."
+general_5 : "Anjeun kedah janten admin sareng hak manajemén obrolan sora pikeun ngalakukeun tindakan ieu."
+general_6 : "Bot teu ngalirkeun data dina obrolan sora."
