@@ -43,7 +43,7 @@ def stream_markup(_, videoid):
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
             ),
             InlineKeyboardButton(
-                text=_["PL_B_12"], url=f"https://t.me/{app.username}?start=lyrics_{ran_hash}",
+                text=_["PL_B_12"], switch_inline_query_current_chat=""
             ), 
         ],
         [
@@ -62,7 +62,7 @@ def telegram_markup(_):
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
             ),
             InlineKeyboardButton(
-                text=_["PL_B_12"], url=f"https://t.me/{app.username}?start=lyrics_{ran_hash}",
+                text=_["PL_B_12"], switch_inline_query_current_chat=""
             ),
         ], 
         [
