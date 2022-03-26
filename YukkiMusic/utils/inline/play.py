@@ -47,6 +47,9 @@ def stream_markup(_, videoid):
             InlineKeyboardButton(
                 text=_["S_B_11"], url=f"https://t.me/RemixRobot?start=help",
             ), 
+            InlineKeyboardButton(
+                text=_["ST_B_6"], callback_data="LG"
+            ), 
         ],
         [
             InlineKeyboardButton(
