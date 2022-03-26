@@ -25,6 +25,16 @@ def botplaylist_markup(_):
             InlineKeyboardButton(
                 text=_["PL_B_4"], callback_data="PM"
             ),
+        ],
+        [
+            InlineKeyboardButton(
+                text=_["S_B_9"], url=f"https://t.me/VegetaSupports",
+            ),
+            InlineKeyboardButton(
+                text=_["S_B_10"], url=f"https://t.me/RendyProjects", 
+            ),
+        ],
+        [
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"], callback_data="close"
             ),
