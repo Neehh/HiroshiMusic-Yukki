@@ -72,7 +72,7 @@ def telegram_markup(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["PL_B_3"], switch_inline_query_current_chat=""
+                text=_["PL_B_10"], url=f"https://t.me/RendyProjects",
             ),
             InlineKeyboardButton(
                 text=_["PL_B_12"], switch_inline_query_current_chat=""
