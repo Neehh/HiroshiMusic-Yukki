@@ -145,10 +145,6 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                         text=_["ST_B28"], url=f"https://t.me/rencprx",
                     ), 
                 ], 
-                [
-                    InlineKeyboardButton(
-                        text=_["S_B_10"], url=f"https://t.me/RendyProjects", 
-                    ),
                 ]
             )
     buttons.append(
