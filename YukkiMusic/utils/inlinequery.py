@@ -71,7 +71,7 @@ answer.extend(
         InlineQueryResultArticle(
             title="Iyrics Online", 
             description="Read iyrics Music"
-            thumb_url="https://telegra.ph/file/822f88de8825a629ccd83.png", 
+            thumb_url="https://telegra.ph/file/822f88de8825a629ccd83.png"
             input_message_content=InputTextMessageContent("/iyrics alone walker"),
         ), 
     ]
