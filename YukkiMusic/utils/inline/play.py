@@ -71,9 +71,6 @@ def telegram_markup(_):
             InlineKeyboardButton(
                 text=_["PL_B_10"], url=f"https://t.me/RendyProjects",
             ),
-            InlineKeyboardButton(
-                text=_["PL_B_12"], switch_inline_query_current_chat=""
-            ),
         ], 
         [
             InlineKeyboardButton(
