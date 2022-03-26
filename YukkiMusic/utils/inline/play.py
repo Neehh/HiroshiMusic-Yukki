@@ -21,7 +21,7 @@ def track_markup(_, videoid, user_id, channel, fplay):
                 text=_["P_B_2"],
                 callback_data=f"MusicStream {videoid}|{user_id}|v|{channel}|{fplay}",
             ),
-        ]
+        ], 
         [
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
@@ -43,7 +43,8 @@ def stream_markup(_, videoid):
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
             ),
             InlineKeyboardButton(
-                text=_
+                text=_["PL_B_12"], url=f"https://t.me/RemixRobot?start=lyrics"
+            ), 
         ],
         [
             InlineKeyboardButton(
