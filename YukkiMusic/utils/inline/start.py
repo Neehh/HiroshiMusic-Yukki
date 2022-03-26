@@ -23,7 +23,7 @@ def start_pannel(_):
                 url=f"https://t.me/{app.username}?start=help",
             ),
             InlineKeyboardButton(
-                text=_["S_B_2"], url=f"https://t.me/VegetaSupports"
+                text=_["S_B_2"], url=f"https://t.me/VegetaSupports",
             ),
         ],
     ]
@@ -139,15 +139,15 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text=_["S_B_7"], url=f"https://t.me/{OWNER}",
+                        text=_["S_B_7"], user_id=OWNER",
                     ),
                 ], 
                 [
                     InlineKeyboardButton(
-                        text=_["S_B_10"], url=f"https://t.me/RendyProjects"
+                        text=_["S_B_10"], url=f"https://t.me/RendyProjects", 
                     ),
                     InlineKeyboardButton(
-                        text=_["ST_B_28"], url=f"https://t.me/rencprx"
+                        text=_["ST_B_28"], url=f"https://t.me/rencprx", 
                     ), 
                 ]
             )
