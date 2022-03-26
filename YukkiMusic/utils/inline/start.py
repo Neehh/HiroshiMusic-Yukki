@@ -64,6 +64,8 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(
                 text=_["S_B_8"], callback_data="settings_back_helper"
             ), 
+        ],
+        [
             InlineKeyboardButton(
                 text=_["S_B_9"], url=f"https://t.me/VegetaSupports"
             ), 
@@ -78,6 +80,8 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 InlineKeyboardButton(
                     text=_["S_B_3"], url=f"{SUPPORT_GROUP}"
                 ),
+            ], 
+            [
                 InlineKeyboardButton(
                     text=_["S_B_9"], url=f"https://t.me/VegetaSupports"
                ), 
@@ -97,7 +101,9 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 [
                     InlineKeyboardButton(
                         text=_["S_B_3"], url=f"{SUPPORT_GROUP}"
-                    ), 
+                    ),
+                ],
+                [
                     InlineKeyboardButton(
                         text=_["S_B_9"], url=f"https://t.me/VegetaSupports"
                     ), 
@@ -135,6 +141,8 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                     InlineKeyboardButton(
                         text=_["S_B_7"], user_id=OWNER
                     ),
+                ], 
+                [
                     InlineKeyboardButton(
                         text=_["S_B_10"], url=f"https://t.me/RendyProjects"
                     ),
