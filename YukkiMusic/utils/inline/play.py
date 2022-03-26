@@ -7,7 +7,7 @@
 #
 # All rights reserved.
 
-from pyrogram.types import InlineKeyboardButton,
+from pyrogram.types import InlineKeyboardButton
 
 
 def track_markup(_, videoid, user_id, channel, fplay):
