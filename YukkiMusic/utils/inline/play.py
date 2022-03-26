@@ -7,7 +7,7 @@
 #
 # All rights reserved.
 
-from pyrogram.types import InlineKeyboardButton
+from pyrogram.types import InlineKeyboardButton, InlineResultArtcle, impurtTextMessageContet
 
 
 def track_markup(_, videoid, user_id, channel, fplay):
@@ -42,8 +42,9 @@ def stream_markup(_, videoid):
             InlineKeyboardButton(
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
             ),
-            InlineKeyboardButton(
-                text=_["PL_B_12"], url=f"https://t.me/RemixRobot?start=lyrics"
+            InlineQueryResultArticle(
+                title="Iyrics online", 
+                text=_["PL_B_12"], input_message_content=InputTextMessageContent("/iyrics")
             ), 
         ],
         [
@@ -61,8 +62,9 @@ def telegram_markup(_):
             InlineKeyboardButton(
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
             ),
-            InlineKeyboardButton(
-                text=_["PL_B_12"], url=f"https://t.me/RemixRobot?start=lyrics"
+            InlineQueryResultArticle(
+                title="iyrics online",
+                text=_["PL_B_12"], input_message_content=InputTextMessageContent("/iyrics")
             ),
         ], 
         [
