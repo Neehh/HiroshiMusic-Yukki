@@ -44,7 +44,7 @@ def stream_markup(_, videoid):
             ),
             InlineQueryResultArticle(
                 title="Iyrics online", 
-                text=_["PL_B_12"], input_message_content=InputTextMessageContent("/iyrics")
+                text=_["PL_B_12"], url=f"https://t.me/{app.username}?start=lyrics_{ran_hash}",
             ), 
         ],
         [
@@ -64,7 +64,7 @@ def telegram_markup(_):
             ),
             InlineQueryResultArticle(
                 title="iyrics online",
-                text=_["PL_B_12"], input_message_content=InputTextMessageContent("/iyrics")
+                text=_["PL_B_12"], url=f"https://t.me/{app.username}?start=lyrics_{ran_hash}",
             ),
         ], 
         [
