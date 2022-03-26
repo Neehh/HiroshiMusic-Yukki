@@ -72,7 +72,7 @@ answer.extend(
             title="Iyrics", 
             description="iyrics Music", 
             thumb_url="https://telegra.ph/file/822f88de8825a629ccd83.png", 
-            input_message_content=InputTextMessageContent("/lyrics alone walker"),
+            input_message_content=InputTextMessageContent("/lyrics"),
         ), 
     ]
 )
