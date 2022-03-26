@@ -21,7 +21,7 @@ def track_markup(_, videoid, user_id, channel, fplay):
                 text=_["P_B_2"],
                 callback_data=f"MusicStream {videoid}|{user_id}|v|{channel}|{fplay}",
             ),
-        ],
+        ]
         [
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
