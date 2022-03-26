@@ -42,8 +42,7 @@ def stream_markup(_, videoid):
             InlineKeyboardButton(
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
             ),
-            InlineQueryResultArticle(
-                title="Iyrics online", 
+            InlineKeyboardButton(
                 text=_["PL_B_12"], url=f"https://t.me/{app.username}?start=lyrics_{ran_hash}",
             ), 
         ],
@@ -62,8 +61,7 @@ def telegram_markup(_):
             InlineKeyboardButton(
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
             ),
-            InlineQueryResultArticle(
-                title="iyrics online",
+            InlineKeyboardButton(
                 text=_["PL_B_12"], url=f"https://t.me/{app.username}?start=lyrics_{ran_hash}",
             ),
         ], 
