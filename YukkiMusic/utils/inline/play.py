@@ -42,8 +42,21 @@ def stream_markup(_, videoid):
             InlineKeyboardButton(
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
             ),
+        ],
+        [
             InlineKeyboardButton(
                 text=_["PL_B_12"], switch_inline_query_current_chat=""
+            ),
+            InlineKeyboardButton(
+                text=_["S_B_10"], url=f"https://t.me/RendyProjects",
+            ), 
+        ],
+        [
+            InlineKeyboardButton(
+                text=_["S_B_9"], url=f"https://t.me/VegetaSupports",
+            ),
+            InlineKeyboardButton(
+                text=_["S_B_1"], url=f"https://t.me/RemixRobot?start=help",
             ), 
         ],
         [
