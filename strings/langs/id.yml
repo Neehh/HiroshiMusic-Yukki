@@ -236,15 +236,15 @@ UNBAN_BUTTON : "🗑 Unban Asisten"
 L_B_1 : "🚀 Periksa Lirik Sekarang"
 
 # Awal
-S_B_1 : "🗒 Perintah"
-S_B_2 : "🔧 Pengaturan"
-S_B_3 : "📨 Grup"
-S_B_4 : "📨 Channel"
-S_B_5 : "✚ Tambahkan Bot Ke Grup"
-S_B_6 : "🌐 Repo Music"
-S_B_7 : "​📚 Bantuan"
-S_B_9 : "👥 Supports"
-S_B_10 : "📕 Projects"
+S_B_1 : "📜 Perintah 📜"
+S_B_2 : "⚒️ Pengaturan ⚒️"
+S_B_3 : "📨 Grup 📨"
+S_B_4 : "📨 Channel 📨"
+S_B_5 : "✚ Tambahkeun Bot Ke Grup ✚"
+S_B_6 : "🌐 Repo Music 🌐"
+S_B_7 : "​📚 Bantuan 📚"
+S_B_9 : "👥 Supports 👥"
+S_B_10 : "📕 Projects 📕"
 
 
 #Membantu
