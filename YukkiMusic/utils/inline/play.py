@@ -36,8 +36,8 @@ def stream_markup(_, videoid):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["P_B_5"],
-                callback_data="pause"
+                text=_["ST_B_28"],
+                url=f"https://t.me/rencprx", 
             ),
         ],
         [
