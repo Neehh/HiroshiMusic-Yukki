@@ -67,6 +67,11 @@ def stream_markup(_, videoid):
         ],
         [
             InlineKeyboardButton(
+                text=_["S_B_5"], url=f"https://t.me/RemixRobot?startgroup=true",
+           ),
+        ],
+        [
+            InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"], callback_data="close"
             )
         ],
