@@ -130,8 +130,8 @@ cplay_5 : "Ngan Saluran anu dirojong."
 cplay_6 : "Anjeun kedah janten **Pamilik** saluran[{0}] pikeun ngahubungkeun éta sareng grup ieu.\n**Pamilik Saluran:** @{1}\n\nAtawa anjeun tiasa ngaitkeun grup anjeun ka saluran éta sareng cobian sambungkeun sareng `/channelplay linked`"
 
 #Diulinkeun
-play_1 : "🔄 Ngamuat Musik... Mangga Antosan!"
-play_2 : "**🏷 Channel Play Mode**\n\n🔄 Ngolah Musik... Punten Antosan!\n**Saluran Numbu:** {0}"
+play_1 : "♻️ Ngamuat Musik... Mangga Antosan!"
+play_2 : "**🏷 Channel Play Mode**\n\n♻️ Ngolah Musik... Punten Antosan!\n**Saluran Numbu:** {0}"
 play_3 : "Gagal Ngolah Musik!"
 play_4 : " **Admin Ngan Puter**\nNgan Pamaké Admin sareng Auth anu tiasa maénkeun musik dina grup ieu.\n\nGanti modeu liwat /playmode sareng upami anjeun parantos janten admin, muatkeun deui admincache ngalangkungan /admincache"
 play_5 : "Gagal ngolah file audio.\n\nUkuran File Audio Kudu Kurang ti 100 mb"
@@ -221,9 +221,9 @@ stream_4 : " **Mimitian Streaming** \n\n**🔗 Judul:** [{0}]({1})\n⌛**Durasi*
 
 #Konci Umum
 CLOSE_BUTTON : "🗑 Tutupan"
-CLOSEMENU_BUTTON : "🗑 Tutupan Menus"
-BACK_BUTTON : "《 Balikan"
-UNBAN_BUTTON : "🗑 Unban Assistontis"
+CLOSEMENU_BUTTON : "🗑 Tutupan Menu"
+BACK_BUTTON : "《 Balikeun"
+UNBAN_BUTTON : "🗑 Unban Asisten"
 
 #Lirik
 L_B_1 : "🚀 Pariksa Lirik Ayeuna"
