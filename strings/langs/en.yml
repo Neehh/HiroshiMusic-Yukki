@@ -276,7 +276,7 @@ P_B_1 : "🎵 Play Audio"
 P_B_2 : "🎥 Play Video"
 P_B_3 : "🏮 Start Live Stream"
 P_B_4 : "🎵 Play Playlist"
-P_B_5 : "•PAUSE"
+
 
 #Playlist
 PL_B_1 : "🚀 Play Playlist"
@@ -320,7 +320,7 @@ ST_B_24 : "🏷 Channel"
 ST_B_25 : "🫂 Play Type"
 ST_B_26 : "🗑 Command Clean"
 ST_B_27 : "🧑‍🚀 Suggestion Mode"
-ST_B_28 : "👑 developer"
+ST_B_28 : "👨🏻‍💻 developer"
 
 #Song
 SG_B_1 : "↗️ Open Private Chat"
