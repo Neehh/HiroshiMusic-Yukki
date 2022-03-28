@@ -220,7 +220,7 @@ queue_4 : "⏳ Ditambahkan ke Antrian di **#{0}\n\n 🔗 Judul :** {1}\n**⏱Dur
 
 # Semua Saluran Streaming
 stream_1 : " 📡 **Memulai Streaming** 💡\n\n👤**Diminta Oleh:** {0}\n🔦**Informasi: **[Di Sini]({1})"
-stream_2 : " **Memulai Streaming melalui URL** 💡\n\n👤**Diminta Oleh:** {0}"
+stream_2 : " 📡 **Memulai Streaming melalui URL** 💡\n\n👤**Diminta Oleh:** {0}"
 stream_3 : " 📡 **Memulai Streaming** 💡\n\n**🔗 Judul:** {0}\n⌛**Durasi**: {1}\n👤**Diminta Oleh:** {2}"
 stream_4 : " 📡 **Memulai Streaming** 💡\n\n**🔗 Judul:** [{0}]({1})\n⌛**Durasi**: {2}\n👤**Diminta Oleh:** {3}"
 
@@ -242,7 +242,7 @@ S_B_3 : "📨 Grup 📨"
 S_B_4 : "📨 Channel 📨"
 S_B_5 : "✚ Tambahkeun Bot Ke Grup ✚"
 S_B_6 : "🌐 Repo Music 🌐"
-S_B_7 : "​📚 Bantuan 📚"
+S_B_7 : "🤖 Assistant 🤖"
 S_B_9 : "👥 Supports 👥"
 S_B_10 : "📕 Projects 📕"
 
@@ -268,7 +268,7 @@ P_B_4 : "🎵 Daftar Yang Di Putar"
 
 #Daftar Putar
 PL_B_1 : "🚀 Daftar Di Putar"
-PL_B_2 : "✚ Daftar Putar"
+PL_B_2 : "✚ Daftar Putar ✚"
 PL_B_4 : "📡 Mode Putar"
 PL_B_5 : "🔄 Hapus Seluruh Daftar Putar"
 PL_B_6 : "↗️ Hapus Daftar Putar"
@@ -284,7 +284,7 @@ ST_B_2 : "🎥 Kualitas Video"
 ST_B_3 : "🎩 Pengguna Auth"
 ST_B_4 : "📱 Dasbor"
 ST_B_5 : "▶️ Mode Putar"
-ST_B_6 : "🌏 Bahasa"
+ST_B_6 : "🌏 Bahasa 🌏"
 ST_B_7 : "🔄 Mode Bersih"
 ST_B_8 : "{0} Audio Kualitas Rendah"
 ST_B_9 : "{0} Audio Kualitas Sedang"
