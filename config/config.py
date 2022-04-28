@@ -5,7 +5,7 @@
 # and is released under the "GNU v3.0 License Agreement".
 # Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
 #
-# All rights reserved.
+# All rights reserved. 
 
 import re
 import sys
@@ -56,7 +56,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/NotReallyShikhar/YukkiMusicBot",
+    "https://github.com/UserbotMaps/YukkiMusic-Private",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
