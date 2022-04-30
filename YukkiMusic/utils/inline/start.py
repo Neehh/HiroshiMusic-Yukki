@@ -23,7 +23,7 @@ def start_pannel(_):
                 url=f"https://t.me/{app.username}?start=help",
             ),
             InlineKeyboardButton(
-                text=_["S_B_2"], url=f"https://t.me/VegetaSupports",
+                text=_["S_B_2"], url=f"https://t.me/hiroshisupport",
             ),
         ],
     ]
@@ -67,7 +67,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text=_["S_B_9"], url=f"https://t.me/VegetaSupports"
+                text=_["S_B_9"], url=f"https://t.me/hiroshisupport"
             ), 
         ]
     ]
@@ -83,7 +83,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             ], 
             [
                 InlineKeyboardButton(
-                    text=_["S_B_9"], url=f"https://t.me/VegetaSupports"
+                    text=_["S_B_9"], url=f"https://t.me/hiroshisupport"
                ), 
             ]
         )
@@ -105,7 +105,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 ],
                 [
                     InlineKeyboardButton(
-                        text=_["S_B_9"], url=f"https://t.me/VegetaSupports"
+                        text=_["S_B_9"], url=f"https://t.me/hiroshisupport"
                     ), 
                 ]
             )
