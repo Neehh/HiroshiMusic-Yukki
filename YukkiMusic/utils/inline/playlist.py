@@ -31,10 +31,10 @@ def botplaylist_markup(_):
         ],
         [
             InlineKeyboardButton(
-                text=_["S_B_9"], url=f"https://t.me/hiroshisupport",
+                text=_["S_B_9"], url=f"https://t.me/hiroxsupport",
             ),
             InlineKeyboardButton(
-                text=_["S_B_10"], url=f"https://t.me/hiroshimabes", 
+                text=_["S_B_10"], url=f"https://t.me/vailedcode", 
             ),
         ],
         [
