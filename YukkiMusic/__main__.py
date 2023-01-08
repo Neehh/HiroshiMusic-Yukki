@@ -72,7 +72,7 @@ async def init():
     except:
         pass
     await Yukki.decorators()
-    LOGGER("YukkiMusic").info("Yukki Music Bot Started Successfully")
+    LOGGER("YukkiMusic").info("Hiroshi Music Bot Started Successfully")
     await idle()
 
 
