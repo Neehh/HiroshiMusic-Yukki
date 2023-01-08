@@ -36,39 +36,12 @@ def stream_markup(_, videoid):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["ST_B_28"],
-                url=f"https://t.me/splesneey", 
-            ),
-        ],
-        [
-            InlineKeyboardButton(
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
             ), 
-        ],
-        [
-            InlineKeyboardButton(
-                text=_["S_B_11"], url=f"https://t.me/hiroshirobot?start=help",
-            ), 
-            InlineKeyboardButton(
-                text=_["ST_B_6"], callback_data="LG"
-            ), 
-        ],
-        [
-            InlineKeyboardButton(
-                text=_["S_B_9"], url=f"https://t.me/hiroxsupport",
-            ),
-            InlineKeyboardButton(
-                text=_["S_B_10"], url=f"https://t.me/vailedcode",
-            ), 
-        ],
-        [
-            InlineKeyboardButton(
-                text=_["S_B_5"], url=f"https://t.me/hiroshirobot?startgroup=true",
-           ),
         ],
         [
             InlineKeyboardButton(
