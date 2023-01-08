@@ -37,7 +37,7 @@ def stream_markup(_, videoid):
         [
             InlineKeyboardButton(
                 text=_["ST_B_28"],
-                url=f"https://t.me/Bisubiarenak", 
+                url=f"https://t.me/splesneey", 
             ),
         ],
         [
@@ -51,7 +51,7 @@ def stream_markup(_, videoid):
         ],
         [
             InlineKeyboardButton(
-                text=_["S_B_11"], url=f"https://t.me/TurboHiroBot?start=help",
+                text=_["S_B_11"], url=f"https://t.me/hiroshirobot?start=help",
             ), 
             InlineKeyboardButton(
                 text=_["ST_B_6"], callback_data="LG"
@@ -59,15 +59,15 @@ def stream_markup(_, videoid):
         ],
         [
             InlineKeyboardButton(
-                text=_["S_B_9"], url=f"https://t.me/hiroshisupport",
+                text=_["S_B_9"], url=f"https://t.me/hiroxisupport",
             ),
             InlineKeyboardButton(
-                text=_["S_B_10"], url=f"https://t.me/hiroshimabes",
+                text=_["S_B_10"], url=f"https://t.me/vailedcode",
             ), 
         ],
         [
             InlineKeyboardButton(
-                text=_["S_B_5"], url=f"https://t.me/TurboHiroBot?startgroup=true",
+                text=_["S_B_5"], url=f"https://t.me/hiroshirobot?startgroup=true",
            ),
         ],
         [
@@ -83,7 +83,7 @@ def telegram_markup(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["PL_B_10"], url=f"https://t.me/hiroshimabes",
+                text=_["PL_B_10"], url=f"https://t.me/vailedcode",
             ),
         ], 
         [
